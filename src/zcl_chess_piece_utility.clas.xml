@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CHESS_PIECE_UTILITY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Piece utility class</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>K</RSTAT>
+    <MSG_ID>ZCHESS_MESSAGES</MSG_ID>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>White</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>002</KEY>
+     <ENTRY>Black</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COLOR_NAME</CMPNAME>
+     <SCONAME>IV_COLOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Piece color</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COLOR_NAME</CMPNAME>
+     <SCONAME>ZCX_CHESS_EXCEPTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_OPPOSITE_COLOR</CMPNAME>
+     <SCONAME>IV_COLOR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Piece color</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_OPPOSITE_COLOR</CMPNAME>
+     <SCONAME>RV_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Piece color</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_OPPOSITE_COLOR</CMPNAME>
+     <SCONAME>ZCX_CHESS_EXCEPTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Exception</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

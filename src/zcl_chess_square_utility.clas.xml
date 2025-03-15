@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_CHESS_SQUARE_UTILITY</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Utility methods</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <RSTAT>K</RSTAT>
+    <MSG_ID>ZCHESS_MESSAGES</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_INSIDE_BOARD</CMPNAME>
+     <SCONAME>RV_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_INSIDE_BOARD</CMPNAME>
+     <SCONAME>ZCX_CHESS_EXCEPTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_SQUARE_COORDINATES</CMPNAME>
+     <SCONAME>EV_X</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>File - Vertical column (e.g. A-H)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_SQUARE_COORDINATES</CMPNAME>
+     <SCONAME>EV_Y</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Rank - Horizontal column (e.g. 1-8)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_SQUARE_COORDINATES</CMPNAME>
+     <SCONAME>IV_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of square (e.g. A1)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_SQUARE_NAME</CMPNAME>
+     <SCONAME>IV_X</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>File - Vertical column (e.g. A-H)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_SQUARE_NAME</CMPNAME>
+     <SCONAME>IV_Y</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Rank - Horizontal column (e.g. 1-8)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>TO_SQUARE_NAME</CMPNAME>
+     <SCONAME>RV_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of square (e.g. A1)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

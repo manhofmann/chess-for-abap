@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_CHESS_PLAYER</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Chess player</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>MO_MOVE_HANDLER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Move Handler (chain of responsibility)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_COLOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Piece color</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_PLAYER_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Player name</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INPUT</CMPNAME>
+     <SCONAME>IO_BOARD</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Chess board (only read/non modifying methods)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INPUT</CMPNAME>
+     <SCONAME>RO_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Chess move</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INPUT</CMPNAME>
+     <SCONAME>ZCX_CHESS_EXCEPTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_RESIGN_MOVE</CMPNAME>
+     <SCONAME>IO_BOARD</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Chess board (only read/non modifying methods)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_RESIGN_MOVE</CMPNAME>
+     <SCONAME>RO_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Chess move</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_RESIGN_MOVE</CMPNAME>
+     <SCONAME>ZCX_CHESS_EXCEPTION</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Exception</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_PLAYER_NAME</CMPNAME>
+     <SCONAME>IV_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Player name</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

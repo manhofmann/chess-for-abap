@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_CHESS_SQUARE</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Chess square</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_LIGHT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns true if square is light colored</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of square (e.g. A1)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_X</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>File - Vertical column (e.g. A-H)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_Y</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Rank - Horizontal row (e.g. 1-8)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ONDRAG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Event on Drag (piece gets picked up)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ONDROP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Event on Drop (piece gets put on square)</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_LIGHT</CMPNAME>
+     <SCONAME>RV_RESULT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data element for domain BOOLE: TRUE (=&apos;X&apos;) and FALSE (=&apos; &apos;)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MOVE</CMPNAME>
+     <SCONAME>IO_MOVE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Move</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

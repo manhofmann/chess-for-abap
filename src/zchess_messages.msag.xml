@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZCHESS_MESSAGES</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Chess messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Wrong number of ranks: &amp;1 (Expected &amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Invalid square &amp;1. Piece not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Cannot capture empty square &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Error creating gui custom container. SUBRC=&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error creating gui picture. SUBRC=&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Error loading picture async</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Error setting display mode</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error setting events</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Error adding dragdrop behavior</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Error setting dragdrop object to picture/control</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Square &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Error loading picture</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Error in function module &apos;&amp;1&apos;. SUBRC=&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Captured piece in move must not be changed</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Promoted piece in move must not change its type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>Move type can only be set once</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>Move handler instance must not be empty</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Invalid answer to promote piece</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>Invalid color</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>King of color &amp;1 is missing on board</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>021</MSGNR>
+     <TEXT>Invalid index &amp;1. Square can not be found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>022</MSGNR>
+     <TEXT>Invalid piece type &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>023</MSGNR>
+     <TEXT>Error creating gui alv grid. SUBRC=&amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>024</MSGNR>
+     <TEXT>Error calling method &amp;1-&gt;&amp;2. SUBRC=&amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>025</MSGNR>
+     <TEXT>No move found. Please play a move!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>026</MSGNR>
+     <TEXT>Only pieces can be moved. Please move a piece!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>027</MSGNR>
+     <TEXT>Only pieces of color &amp;1 can be moved!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>028</MSGNR>
+     <TEXT>This move was not valid. Please try again!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>029</MSGNR>
+     <TEXT>&amp;1 King has been checkmated! The game ended</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>030</MSGNR>
+     <TEXT>&amp;1 King has been stalemated! The game ended</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>031</MSGNR>
+     <TEXT>&amp;1 King is in check!</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>032</MSGNR>
+     <TEXT>Waiting for move of opponent ...</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>033</MSGNR>
+     <TEXT>Game server is already running</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>034</MSGNR>
+     <TEXT>&amp;1 player resigned</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>035</MSGNR>
+     <TEXT>Neither white nor black player are local player instances</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>036</MSGNR>
+     <TEXT>Error during CALL TRANSFORMATION</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>037</MSGNR>
+     <TEXT>AMC Error - Wait time of &amp;1 seconds exceeded</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>038</MSGNR>
+     <TEXT>AMC PCP Error</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>039</MSGNR>
+     <TEXT>AMC Error &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>040</MSGNR>
+     <TEXT>AMC Error during sending event &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>041</MSGNR>
+     <TEXT>AMC Error during received. Expected field &amp;1 not set</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>042</MSGNR>
+     <TEXT>Invalid random result. Expected either 0 or 1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>043</MSGNR>
+     <TEXT>Game server is not running. Please start it</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>044</MSGNR>
+     <TEXT>Wait for opponent to join the game ...</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>045</MSGNR>
+     <TEXT>Player has already been registered for multiplayer game</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>046</MSGNR>
+     <TEXT>Either white or black player should be set</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>047</MSGNR>
+     <TEXT>Capture sqaure in move can only be set once</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>048</MSGNR>
+     <TEXT>UUID could not be generated</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>049</MSGNR>
+     <TEXT>Promoted piece is empty in promotion move</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Undo move not possible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>You can only resign for yourself</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZCHESS_MESSAGES</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Legal moves are empty</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

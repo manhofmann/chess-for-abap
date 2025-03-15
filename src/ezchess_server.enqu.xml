@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_ENQU" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD25V>
+    <VIEWNAME>EZCHESS_SERVER</VIEWNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <AGGTYPE>E</AGGTYPE>
+    <ROOTTAB>ZCHESS_GAME_SERVER</ROOTTAB>
+    <DDTEXT>Chess server lock</DDTEXT>
+   </DD25V>
+   <DD26E_TABLE>
+    <DD26E>
+     <VIEWNAME>EZCHESS_SERVER</VIEWNAME>
+     <TABNAME>ZCHESS_GAME_SERVER</TABNAME>
+     <TABPOS>0001</TABPOS>
+     <FORTABNAME>ZCHESS_GAME_SERVER</FORTABNAME>
+     <ENQMODE>X</ENQMODE>
+    </DD26E>
+   </DD26E_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

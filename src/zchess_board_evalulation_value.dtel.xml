@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZCHESS_BOARD_EVALULATION_VALUE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>INT4</DOMNAME>
+    <HEADLEN>22</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>11</SCRLEN2>
+    <SCRLEN3>22</SCRLEN3>
+    <DDTEXT>Board evaluation value (positive white advantage)</DDTEXT>
+    <REPTEXT>Board evaluation value</REPTEXT>
+    <SCRTEXT_S>Evaluation</SCRTEXT_S>
+    <SCRTEXT_M>Board value</SCRTEXT_M>
+    <SCRTEXT_L>Board evaluation value</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
